@@ -57,4 +57,14 @@ object RetrofitClient {
 	}
 }
 ```
-위와같이 전역 context를 사용할수있다.
+위와같이 전역 context를 사용할수있다.<br/><br/>
+
+이것만으로는 문제가 발생하게된다.<br/>
+이유는 작업 스레드가 UI 영역을 처리하지못해 문제가 발생하니<br/>
+Toast 부분을 UI스레드에게 처리하게 해야한다.<br/>
+
+```kotlin
+Handler(Looper.getMainLooper()).post{
+	Toast.makeText(App.instance,"호출 성공",Toast.LENGTH_SHORT).show()
+}
+```
