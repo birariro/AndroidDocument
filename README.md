@@ -11,6 +11,9 @@
 
 # :ghost: 특수한 화면 관련
 [앱 밖에 그리기](https://github.com/k4keye/AndroidDocument/blob/main/%ED%8A%B9%EC%88%98%ED%95%9C%ED%99%94%EB%A9%B4/Floating%20Widget.md)  </br>
+[앱 위젯](https://github.com/k4keye/AndroidDocument/blob/main/%ED%8A%B9%EC%88%98%ED%95%9C%ED%99%94%EB%A9%B4/%EC%9C%84%EC%A0%AF.md)  </br>
+
+
 
 # 🌼 특수한 처리 관련
 [전역 Context 사용하기](https://github.com/k4keye/AndroidDocument/blob/main/%ED%8A%B9%EC%88%98%20%EC%B2%98%EB%A6%AC/Context%20%EC%A0%84%EC%97%AD%EC%9C%BC%EB%A1%9C%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)  </br>
